@@ -44,7 +44,7 @@ function ChatWindow() {
     try {
 
       const response = await axios.post(
-        "http://localhost:8080/department/chat",
+        "https://migration-chatbot-api.onrender.com/department/chat",
         formData,
         {
           headers: {
